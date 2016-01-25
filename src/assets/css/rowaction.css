@@ -1,0 +1,32 @@
+/*!
+ * @copyright Copyright &copy; Roman Korolov, 2015
+ * @version 1.0.0
+ *
+ * Custom styling for RowAction
+ * Built for Yii Framework 2.0
+ * Author: Roman Korolov
+ */
+
+.rk-row-actions {
+    color: #ddd;
+    font-size: 13px;
+    padding: 3px 0 0;
+    visibility: hidden;
+}
+
+tr:hover .rk-row-actions {
+    visibility: visible;
+}
+
+a.rk-row-title {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.rk-row-actions a {
+    font-size: 13px;
+}
+
+.rk-row-actions span + span:before {
+    content: " | ";
+}
